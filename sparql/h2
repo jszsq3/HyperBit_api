@@ -1,0 +1,8 @@
+select ?h ?x ?y ?z ?k ?m where {  
+    ?h <rdfs> <上海延华智能科技(集团)股份有限公司> .
+      ?h <rdfp> <高管成员> .
+        ?h <rdfs> ?x .
+          ?h <rdfp> ?y .
+            ?h <rdfo> ?z .
+              ?h <rdfst> ?k .
+                ?h <rdfet> ?m .  } 

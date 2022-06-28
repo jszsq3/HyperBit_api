@@ -1,0 +1,9 @@
+if [ $2 == 1 ]
+then
+   ./bin/lrelease/triplebitQuery v1/ ../sparql/
+fi
+
+if [ $2 == 2 ]
+then
+   ./bin/lrelease/triplebitQuery database1000w/ ../sparql/
+fi
